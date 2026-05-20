@@ -32,7 +32,14 @@ export default function Footer() {
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Контакты</h3>
-                <span className="text-white text-sm sm:text-base">Москва</span>
+                <a
+                  href="https://maps.yandex.ru/?text=ул.+Академика+Миллионщикова,+д.+20,+Москва"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  ул. Академика Миллионщикова, д. 20
+                </a>
                 <a
                   href="tel:+74951234567"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
