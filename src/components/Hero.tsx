@@ -19,19 +19,30 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/8ffb062c-3e33-4568-974a-44f70c579d1b/files/14281e6d-5696-40ed-be56-ae40a44c3546.jpg"
+          alt="Кибербезопасность"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/50" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
-        </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-xs md:text-sm uppercase tracking-[0.3em] mb-4 opacity-70">
+          День открытых дверей · Колледж IT Москва
         </p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
+          ЗАЩИТИ<br />ЦИФРОВОЙ<br />МИР
+        </h1>
+        <p className="text-base md:text-xl max-w-2xl mx-auto opacity-90 mb-10 leading-relaxed">
+          Направление «Обеспечение информационной безопасности автоматизированных систем» —
+          профессия настоящего и будущего
+        </p>
+        <a
+          href="#register"
+          className="inline-block bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-neutral-200 transition-colors duration-300"
+        >
+          Записаться на мероприятие
+        </a>
       </div>
     </div>
   );
